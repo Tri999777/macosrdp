@@ -4,7 +4,4 @@ VNC_PASSWORD      : more than 6 characters
 NGROK_AUTH_TOKEN. : Get https://dashboard.ngrok.com/get-started/your-authtoken
 
 # PassWord
-'''console
-
 Alone215
-'''
