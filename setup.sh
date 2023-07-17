@@ -11,8 +11,8 @@ sudo dscl . -create /Users/alone RealName "Alone"
 sudo dscl . -create /Users/alone UniqueID 1001
 sudo dscl . -create /Users/alone PrimaryGroupID 80
 sudo dscl . -create /Users/alone NFSHomeDirectory /Users/vncuser
-sudo dscl . -passwd /Users/alone $1
-sudo dscl . -passwd /Users/alone $1
+sudo dscl . -passwd /Users/alone Alone123
+sudo dscl . -passwd /Users/alone Alone123
 sudo createhomedir -c -u alone > /dev/null
 
 #Enable VNC
